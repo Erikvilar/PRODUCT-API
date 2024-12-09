@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      uri: ${MONGODB_URI}
+      database: ProductDB
+
+server:
+  port: 6680
+      
